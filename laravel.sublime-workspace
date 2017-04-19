@@ -1,0 +1,421 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tim",
+				"timestamps"
+			],
+			[
+				"R",
+				"Route"
+			],
+			[
+				"va",
+				"var_dump"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"{{ config('app.locale') }}\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n        <title>Laravel</title>\n\n        <!-- Fonts -->\n        <link href=\"https://fonts.googleapis.com/css?family=Raleway:100,600\" rel=\"stylesheet\" type=\"text/css\">\n\n        <!-- Styles -->\n        <style>\n            html, body {\n                background-color: #fff;\n                color: #636b6f;\n                font-family: 'Raleway', sans-serif;\n                font-weight: 100;\n                height: 100vh;\n                margin: 0;\n            }\n\n            .full-height {\n                height: 100vh;\n            }N\n\n            .flex-center {\n                align-items: center;\n                display: flex;\n                justify-content: center;\n            }\n\n            .position-ref {\n                position: relative;\n            }\n\n            .top-right {\n                position: absolute;\n                right: 10px;\n                top: 18px;\n            }\n\n            .content {\n                text-align: center;\n            }\n\n            .title {\n                font-size: 84px;\n            }\n\n            .links > a {\n                color: #636b6f;\n                padding: 0 25px;\n                font-size: 12px;\n                font-weight: 600;\n                letter-spacing: .1rem;\n                text-decoration: none;\n                text-transform: uppercase;\n            }\n\n            .m-b-md {\n                margin-bottom: 30px;\n            }\n        </style>\n    </head>\n    <body>\n        <div class=\"flex-center position-ref full-height\">\n            @if (Route::has('login'))\n                <div class=\"top-right links\">\n                    @if (Auth::check())\n                        <a href=\"{{ url('/home') }}\">Home</a>\n                    @else\n                        <a href=\"{{ url('/login') }}\">Login</a>\n                        <a href=\"{{ url('/register') }}\">Register</a>\n                    @endif\n                </div>\n            @endif\n\n            <div class=\"content\">\n                <div class=\"title m-b-md\">\n                    Laravel\n                </div>\n\n                <div class=\"links\">\n                    <a href=\"https://laravel.com/docs\">Documentation</a>\n                    <a href=\"https://laracasts.com\">Laracasts</a>\n                    <a href=\"https://laravel-news.com\">News</a>\n                    <a href=\"https://forge.laravel.com\">Forge</a>\n                    <a href=\"https://github.com/laravel/laravel\">GitHub</a>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n",
+			"file": "resources/views/welcome.blade.php",
+			"file_size": 2748,
+			"file_write_time": 1489773852000000,
+			"settings":
+			{
+				"buffer_size": 2749,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/about.blade.php",
+			"settings":
+			{
+				"buffer_size": 127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n    <head>\n        <title>App Name - @yield('title')</title>\n    </head>\n    <body>\n        @section('sidebar')\n            This is the master sidebar.\n        @show\n\n        <div class=\"container\">\n            @yield('content')\n        </div>\n    </body>\n</html>",
+			"file": "resources/views/layouts/app.blade.php",
+			"file_size": 0,
+			"file_write_time": 1490710307000000,
+			"settings":
+			{
+				"buffer_size": 270,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/PagesController.php",
+			"settings":
+			{
+				"buffer_size": 265,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Convert Case: Title Case"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 299.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/laravel5/routes/web.php",
+		"/var/www/html/laravel5/routes/about.php",
+		"/var/www/html/laravel5/.gitignore",
+		"/var/www/html/laravel5/resources/views/articles/create.blade.php",
+		"/var/www/html/laravel5/config/app.php",
+		"/var/www/html/laravel5/resources/views/app.blade.php",
+		"/var/www/html/laravel5/app/Http/routes.php",
+		"/var/www/html/laravel5/app/Http/Controllers/ArticlesController.php",
+		"/var/www/html/laravel5/bootstrap/app.php",
+		"/var/www/html/laravel5/resources/views/articles/show.blade.php",
+		"/var/www/html/laravel5/database/migrations/.gitkeep",
+		"/var/www/html/laravel5/database/migrations/2017_02_13_063915_add_excerpt_to_articles_table.php",
+		"/var/www/html/laravel5/app/Article.php",
+		"/var/www/html/laravel5/database/migrations/2017_02_17_192411_add_updated_at_to_articles_table.php",
+		"/var/www/html/laravel5/database/migrations/2017_02_13_052815_create_articles_table.php",
+		"/var/www/html/laravel5/database/migrations/2017_02_13_063347_add_excerpt_to_articles_table.php",
+		"/var/www/html/laravel5/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/var/www/html/laravel5/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/var/www/html/laravel5/app/User.php",
+		"/etc/phpmyadmin/config.inc.php",
+		"/var/www/html/laravel5/resources/views/about.blade.php",
+		"/var/www/html/laravel5/app/Http/Controllers/AboutController.php",
+		"/var/www/html/laravel5/app/Http/Controllers/PagesController.php",
+		"/var/www/html/laravel5/config/cache.php",
+		"/var/www/html/laravel5/config/compile.php",
+		"/var/www/html/laravel5/config/services.php",
+		"/var/www/html/array-scratch.php",
+		"/var/www/html/laravel5/resources/views/welcome.blade.php",
+		"/var/www/html/laravel5/gulpfile.js",
+		"/home/john/loops.sh",
+		"/home/john/.bash_aliases",
+		"/home/john/script-aliases.sh",
+		"/home/john/.bashrc",
+		"/home/john/b-script-cd-webproj.sh",
+		"/home/john/b-script-first.sh",
+		"/home/john/python-things-home.txt",
+		"/home/john/.profile",
+		"/var/www/html/laravel_fresh/app/filters.php",
+		"/var/www/html/laravel_fresh/app/routes.php",
+		"/var/www/html/laravel_fresh/app/controllers/BaseController.php",
+		"/etc/apache2/apache2.conf",
+		"/etc/apache2/sites-enabled/laravel4.conf",
+		"/etc/hosts",
+		"/etc/apache2/sites-enabled/wp.dev.conf",
+		"/var/www/html/laravel4/public/index.php",
+		"/etc/apache2/envvars",
+		"/etc/apache2/ports.conf",
+		"/usr/share/apache2/error/HTTP_INTERNAL_SERVER_ERROR.html.var",
+		"/etc/apache2/sites-available/wp.dev.conf",
+		"/var/www/html/WordPress/.htaccess",
+		"/home/john/Downloads/aptana-zip/Aptana-Solarized-master/README.md",
+		"/home/john/.ssh/id_rsa.pub",
+		"/etc/phpmyadmin/apache.conf",
+		"/etc/php5/apache2/php.ini",
+		"/etc/apache2/sites-available/000-default.conf",
+		"/etc/phpt/apache2/php.ini",
+		"/var/www/html/mail-test.php",
+		"/etc/apache2/sites-enabled/000-default.conf",
+		"/var/log/apache2/error.log.1",
+		"/home/john/if.py",
+		"/var/www/html/WordPress/wp-content/themes/index.php",
+		"/var/www/html/WordPress/wp-content/themes/twentyfourteen/css/ie.css",
+		"/var/www/html/WordPress/wp-playground.sublime-project",
+		"/var/www/html/wp-config-sample.php",
+		"/etc/apache2/sites-available/default-ssl.conf",
+		"/var/www/html/WordPress/wp-config.php",
+		"/etc/apache2/magic",
+		"/var/www/phpinfo.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/var/www/html/laravel4",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"UserInterface",
+			"p",
+			"5",
+			"bcm",
+			"error_log",
+			"log_errors",
+			"display_errors"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/welcome.blade.php",
+					"settings":
+					{
+						"buffer_size": 2749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/about.blade.php",
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/layouts/app.blade.php",
+					"settings":
+					{
+						"buffer_size": 270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/Controllers/PagesController.php",
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pages",
+				"app/Http/Controllers/PagesController.php"
+			],
+			[
+				"web.p",
+				"routes/web.php"
+			],
+			[
+				"app",
+				"resources/views/app.blade.php"
+			],
+			[
+				"art",
+				"app/Http/Controllers/ArticlesController.php"
+			],
+			[
+				"arti",
+				"app/Http/Controllers/ArticlesController.php"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/html/WordPress/wp-playground.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true
+}
